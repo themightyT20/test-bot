@@ -18,7 +18,7 @@ const client = new Client({
 
 // Initialize Gemini
 const genai = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
-const model = genai.getGenerativeModel({ model: 'gemini-1.5-flash' });
+const model = genai.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
 // Bad words and their patterns
 const badWords = [
